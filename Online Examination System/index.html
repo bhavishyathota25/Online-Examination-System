@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Online Exam</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            h1{
+                text-align: center;
+                margin-top: 50px;
+            }
+            .loginBox{
+                width: 300px;
+                padding: 20px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: #C6C09C;
+                border: 1px solid #d3d3d3;
+            }
+            input[type=text], input[type=password], input[type=submit] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+             display: inline-block;
+             border: 1px solid #ccc;
+              box-sizing: border-box;
+            }
+            .button {
+             background-color: #E79796; /* Green background */
+             border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            }
+            .button:hover {
+            background-color: #3c1361;
+             }   
+             
+             form {
+    display: inline-block; /* This will place the forms side by side */
+    margin-right: 20px; /* Adjust the right margin as needed */
+  }
+        </style>
+    </head>
+    <body style="background-color:skyblue">
+        <h1>E Tantra</h1>
+        
+        <div class = "loginBox">
+            
+            <h2 style="text-align: center">Login</h2>
+            <h4 style="text-align: centre">select one of the below options.....</h4>
+            
+            <form action="student.jsp" method="get">
+           <button class="button" type="submit">Student</button>
+          </form>
+            <form action="Teacher.jsp" method="get">
+           <button class="button" type="submit">Teacher</button>
+           </form>
+             
+            
+        </div>
+        
+    </body>
+</html>
+index.html
